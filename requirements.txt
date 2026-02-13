@@ -1,3 +1,6 @@
 # for dataset download
 kagglehub
 
+# core
+pytorch
+numpy
