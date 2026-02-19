@@ -22,7 +22,7 @@ class SmolCNN(nn.Module):
         x = F.relu(x)
         x = self.maxpool(x)
 
-        x = torch.flatten(x,1)
+        x = torch.flatten(x, 1)
 
         x = self.linear(x)
 
